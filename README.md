@@ -5,4 +5,5 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC146
 - LC2384
 - LC49
-
+- LC285
+- LC1366
