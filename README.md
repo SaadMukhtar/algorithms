@@ -1,2 +1,6 @@
 # algorithms
-DS and Algorithms practice
+Data structures and algorithms practice! This repo contains solutions to problems I have practiced since the start date of this repo.
+
+### Problems to retry
+- LC146
+- LC2384
