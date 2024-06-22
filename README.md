@@ -7,3 +7,4 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC49
 - LC285
 - LC1366
+- LC300
