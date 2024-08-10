@@ -8,3 +8,4 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC285
 - LC1366
 - LC300
+- LC33
