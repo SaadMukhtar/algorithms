@@ -11,3 +11,4 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC33
 - LC141
 - LC253
+- LC322
