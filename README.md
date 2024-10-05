@@ -14,3 +14,4 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC432
 - LC2491
 - LC146
+- LC743
