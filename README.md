@@ -2,9 +2,6 @@
 Data structures and algorithms practice! This repo contains solutions to problems I have practiced since the start date of this repo.
 
 ### Problems to retry
-- LC253
-- LC322
-- LC731
 - LC678
 - LC432
 - LC2491
