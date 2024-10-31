@@ -13,3 +13,4 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC1366
 - LC1963
 - LC1277
+- 743
