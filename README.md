@@ -15,3 +15,5 @@ Data structures and algorithms practice! This repo contains solutions to problem
 - LC1277
 - 743
 - LC72
+- 54
+
