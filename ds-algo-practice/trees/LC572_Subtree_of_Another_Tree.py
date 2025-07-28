@@ -4,20 +4,24 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
-    def isSubtree(self, s: TreeNode, t: TreeNode) -> bool:
-        if not t:
+    
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not subRoot:
             return True
-        if not s:
+        if not root:
             return False
 
-        if self.sameTree(s, t):
+        if self.sameTree(root, subRoot):
             return True
-        return self.isSubtree(s.left, t) or self.isSubtree(s.right, t)
+        return (self.isSubtree(root.left, subRoot) or 
+               self.isSubtree(root.right, subRoot))
 
-    def sameTree(self, s, t):
-        if not s and not t:
+    def sameTree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not root and not subRoot:
             return True
-        if s and t and s.val == t.val:
-            return self.sameTree(s.left, t.left) and self.sameTree(s.right, t.right)
+        if root and subRoot and root.val == subRoot.val:
+            return (self.sameTree(root.left, subRoot.left) and 
+                   self.sameTree(root.right, subRoot.right))
         return False
