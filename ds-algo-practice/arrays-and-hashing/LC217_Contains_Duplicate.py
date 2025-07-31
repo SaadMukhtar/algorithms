@@ -1,12 +1,8 @@
-from typing import List
-
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        numberSeen = set()
+        duplicateMap = {}
         for n in nums:
-            if n in numberSeen:
+            if n in duplicateMap:
                 return True
-            numberSeen.add(n)
-        
+            duplicateMap[n] = True
         return False
-        
