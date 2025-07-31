@@ -2,24 +2,21 @@ class Codec:
     def encode(self, strs: List[str]) -> str:
         """Encodes a list of strings to a single string.
         """
-        res = ""
-        for s in strs:
-            res += s + 'À'
-        return res
+        encodedString = ""
+        for w in strs:
+            encodedString += w + "😂"
+        return encodedString
 
     def decode(self, s: str) -> List[str]:
         """Decodes a single string to a list of strings.
         """
-        res = []
-        tmp = ""
-        for c in s:
-            if c == 'À':
-                res.append(tmp)
-                tmp = ""
-            else:
-                tmp += c
-        return res
-
+        decodedStrings = []
+        start = 0
+        for i, c in enumerate(s):
+            if c == '😂':
+                decodedStrings.append(s[start:i])
+                start = i+1
+        return decodedStrings
         
 
 
